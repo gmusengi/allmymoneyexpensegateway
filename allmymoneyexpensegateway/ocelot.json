@@ -1,0 +1,17 @@
+{
+  "ReRoutes": [
+    {
+      "UpstreamPathTemplate": "/spendcash",
+      "UpstreamHttpMethod": "Get",
+      "DownstreamPathTemplate": "/cashspend",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.23.27.59",
+          "Port": "30205"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": []
+}
